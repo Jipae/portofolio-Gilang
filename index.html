@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id" class="dark-theme">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Portofolio IT Networking & Web Developer">
+    <meta name="theme-color" content="#0a0a0a">
+    <title>Portfolio | IT & Network</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading-state">
+    
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <span class="loading-text">Selamat Datang</span>
+            <div class="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="webgl-canvas"></canvas>
+
+    <main class="content-overlay">
+        
+        <div class="custom-cursor"></div>
+        <div class="custom-cursor-follower"></div>
+
+        <header class="glass-header">
+            <div class="nav-container">
+                <a href="#home" class="logo">
+                   <span class="logo-icon"><i class="fa-solid fa-globe"></i></span>
+                    <span class="logo-text">Gilang<span class="highlight"> F.P</span></span>
+                </a>
+
+                
+                <nav class="main-nav">
+                    <ul class="nav-links">
+                        <li class="nav-item"><a href="#home" class="nav-link active" data-text="Home">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link" data-text="About">About</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link" data-text="Skills">Skills</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link" data-text="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <button class="mobile-menu-toggle" aria-label="Buka Menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </header>
+
+        <section id="home" class="hero-section glass-panel">
+            <div class="hero-content">
+                <p class="greeting fade-in-up">👋 Halo, selamat datang!</p>
+                <h1 class="main-title fade-in-up" style="animation-delay: 0.1s;">
+                    Saya <span class="gradient-text type-writer">Gilang Fajar Pratama</span>
+                </h1>
+                <h2 class="sub-title fade-in-up" style="animation-delay: 0.2s;">
+                    Fokus di <span class="highlight">Networking</span> & <span class="highlight">Web Dev</span>
+                </h2>
+                <p class="hero-desc fade-in-up" style="animation-delay: 0.3s;">
+                    Menggabungkan logika infrastruktur jaringan dengan kreativitas Web Development untuk menciptakan ekosistem digital yang interaktif dan efisien.
+                </p>
+                
+                <div class="cta-group fade-in-up" style="animation-delay: 0.4s;">
+                    <a href="#skills" class="btn btn-primary glow-effect">
+                        <span>Lihat Skill Saya</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Hubungi Saya</span>
+                    </a>
+                </div>
+                
+              <div class="social-links fade-in-up" style="animation-delay: 0.5s;">
+                  <a href="https://github.com/username_kamu" target="_blank" class="social-icon github">
+                      <i class="fa-brands fa-github"></i>
+                  </a>
+              
+                  <a href="https://www.tiktok.com/@ryuunza" target="_blank" class="social-icon tiktok" aria-label="TikTok">
+                      <i class="fa-brands fa-tiktok"></i>
+                  </a>
+              
+                  <a href="https://www.instagram.com/gfarld" target="_blank" class="social-icon instagram" aria-label="Instagram">
+                      <i class="fa-brands fa-instagram"></i>
+                  </a>
+              </div>
+            </div>
+            
+            <div class="scroll-indicator fade-in-up" style="animation-delay: 0.6s;">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span class="scroll-text">Scroll ke bawah</span>
+            </div>
+        </section>
+        <section id="about" class="about-section glass-panel">
+            <div class="section-header fade-in-up">
+                <span class="section-subtitle">Kenalan Dulu</span>
+                <h2 class="section-title">Data <span class="highlight">Diri</span></h2>
+            </div>
+            
+            <div class="about-container">
+                <div class="about-cards-wrapper fade-in-up">
+                    <div class="glass-card info-card tilt-effect">
+                        <div class="card-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <div class="card-content">
+                            <h3>Alamat Domisili</h3>
+                            <p>Jl raya Ngawi-Cepu ds. Kerek Dsn. Napel Kec. Ngawi Kab. ngaawi</p>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card info-card tilt-effect">
+                        <div class="card-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                        <div class="card-content">
+                            <h3>Email Aktif</h3>
+                            <a href="mailto:gilangfajarpratama4048@gmail.com" class="email-link">gilangfajarpratama4048@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="glass-card info-card tilt-effect">
+                        <div class="card-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                        <div class="card-content">
+                            <h3>Pendidikan</h3>
+                            <p>Jurusan Teknik Komputer dan Jaringan (TKJ) - SMK PGRI 1 Ngawi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section glass-panel">
+            <div class="section-header fade-in-up">
+                <span class="section-subtitle">Apa yang saya pelajari?</span>
+                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="glass-card skill-card fade-in-up tilt-effect">
+                    <div class="skill-header">
+                        <div class="skill-icon network-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>Subnetting</h3>
+                    </div>
+                    <div class="skill-body">
+                        <p>Nggak cuma sekadar ngitung atau ngafal kelas IP (A, B, C). Saya paham cara memecah jaringan yang lebih besar jadi segmen-segmen kecil (VLSM) biar alokasi IP lebih efisien, nggak buang-buang host, dan <em>broadcast domain</em>-nya lebih terarah. Cocok buat manajemen IP di lab atau kantor.</p>
+                    </div>
+                </div>
+
+                <div class="glass-card skill-card fade-in-up tilt-effect">
+                    <div class="skill-header">
+                        <div class="skill-icon network-icon"><i class="fa-solid fa-route"></i></div>
+                        <h3>Routing</h3>
+                    </div>
+                    <div class="skill-body">
+                        <p>Bukan cuma <em>static routing</em> yang input jalurnya manual satu-satu. Saya paham konsep <em>dynamic routing</em> kayak OSPF atau RIP. Jadi, kalau misalnya ada satu kabel atau jalur antar router yang putus, jaringannya bisa otomatis nyari jalan alternatif biar koneksi tetap jalan terus.</p>
+                    </div>
+                </div>
+
+                <div class="glass-card skill-card fade-in-up tilt-effect">
+                    <div class="skill-header">
+                        <div class="skill-icon web-icon"><i class="fa-brands fa-html5"></i></div>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-body">
+                        <p>Paham cara bikin kerangka struktur halaman web. Buat anak TKJ, ini kepake banget pas lagi dapet project bikin halaman <em>Login Hotspot (Captive Portal)</em> di MikroTik atau bikin web profil sekolah sederhana.</p>
+                    </div>
+                </div>
+
+                <div class="glass-card skill-card fade-in-up tilt-effect">
+                    <div class="skill-header">
+                        <div class="skill-icon web-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-body">
+                        <p>Biar halaman web-nya nggak kaku dan ngebosenin. Pakai CSS buat ngatur warna, <em>layout</em>, sampai bikin efek-efek transparan kayak <em>glassmorphism</em>. Saya juga pastiin webnya tetep rapi walau dibuka lewat HP (Responsive).</p>
+                    </div>
+                </div>
+
+                <div class="glass-card skill-card fade-in-up tilt-effect">
+                    <div class="skill-header">
+                        <div class="skill-icon web-icon"><i class="fa-brands fa-js"></i></div>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-body">
+                        <p>Buat ngasih "nyawa" ke dalam website. Mulai dari bikin pop-up validasi form, animasi interaktif, sampai gabungin library keren kayak Three.js buat nampilin objek bumi 3D yang lagi Anda lihat di <em>background</em> ini.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section glass-panel">
+            <div class="section-header fade-in-up">
+                <span class="section-subtitle">Mari Berdiskusi</span>
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            </div>
+            
+            <div class="contact-content fade-in-up">
+                <p class="contact-text">Tertarik untuk kolaborasi atau butuh bantuan terkait setup jaringan dan pembuatan website? Jangan ragu untuk menghubungi saya!</p>
+                <a href="mailto:gilangfajarpratama4048@gmail.com" class="btn btn-primary glow-effect contact-btn">
+                    <i class="fa-regular fa-paper-plane"></i> Kirim Pesan Email
+                </a>
+            </div>
+        </section>
+
+        <footer class="glass-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>Porto<span class="highlight">folio.</span></span>
+                </div>
+                <p>&copy; 2026 <span class="highlight">Gilang F.P</span>. Built with passion, HTML, CSS, JS & Three.js.</p>
+            </div>
+        </footer>
+
+    </main> <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
